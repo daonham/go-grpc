@@ -20,7 +20,7 @@ func NewServer() *server {
 }
 
 func (s *server) SayHello(ctx context.Context, in *router.HelloRequest) (*router.HelloReply, error) {
-	return &router.HelloReply{Message: in.Name + " world"}, nil
+	return &router.HelloReply{Message: in.Name}, nil
 }
 
 func main() {
