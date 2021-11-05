@@ -1,0 +1,6 @@
+###
+POST http://localhost:8090/v1/example/echo
+    
+{
+    "name": "Hello World"
+}
